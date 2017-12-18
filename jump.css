@@ -1,0 +1,72 @@
+#field {
+  border: 4px solid black;
+  height: 400px;
+  width: 1000px;
+  background-color: white;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+#line {
+  border: 2px solid black;
+  height: 50px;
+  width: 20px;
+  margin-top: 350px;
+  margin-left: 980px;
+  background-color: black;
+  position: relative;
+  right: 0px;
+}
+
+#start {
+  height: 50px;
+  width: 90px;
+  margin-left: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #56b544;
+  font-size: 15px;
+}
+
+#stop {
+  height: 50px;
+  width: 90px;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  background-color: #56b544;
+  font-size: 15px;
+}
+
+#boyField {
+  float: left;
+  height: 100px;
+  width: 50px;
+  margin-top: 298px;
+  position: relative;
+  bottom: 0px;
+}
+
+#boy {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  bottom: 0px;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-left: 900px;
+}
+
+body {
+  background-color: #9D849F;
+}
+
+#gameOver {
+  height: 80px;
+  width: 80px;
+  margin-left: 600px;
+  float: left;
+  visibility: hidden;
+}

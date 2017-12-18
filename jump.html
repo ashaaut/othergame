@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="jump.css">
+  <script src="game.js">
+  </script>
+</head>
+
+<body onkeypress="jump(event)">
+  <img id="gameOver" src="gameOver.jpg">
+  <h1>SCORE:<span id="score">0</span> </h1>
+  <div id="field">
+    <div id="boyField">
+      <img id="boy" src="lid.gif">
+    </div>
+    <div id="line">
+    </div>
+  </div>
+  <button id="start" type="button" onclick="startGame()" name="button">start</button>
+  <button id="stop" type="button" onclick="stopGame()" name="button">stop</button>
+</body>
+
+</html>
